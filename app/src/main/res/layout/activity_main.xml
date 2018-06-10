@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+    
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageToUpload"
+            android:layout_width="341dp"
+            android:layout_height="363dp"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:id="@+id/bUploadImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_blue_dark"
+            android:text="Identificar"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="63dp"
+            android:layout_gravity="center_horizontal|center"
+            android:textAllCaps="false"
+            android:textSize="36sp" />
+
+    </LinearLayout>
+    <!--
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent" />
+    
+    <Button
+        android:id="@+id/btnCamera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_dark"
+        android:textColor="@android:color/white"
+        android:text="Abrir Camara"/>
+
+    <Button
+        android:id="@+id/btnUpload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="Subir Imagen"
+        android:textColor="@android:color/white"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="447dp" />-->
+
+</ScrollView>
